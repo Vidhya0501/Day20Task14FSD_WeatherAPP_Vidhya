@@ -35,6 +35,9 @@ async function getWeather(city){
         else if(data.weather[0].main=="Snow"){
             weather_icon.src="images/snow.png";
         }
+        else if(data.weather[0].main=="Fog"){
+            weather_icon.src="images/fog.png";
+        }
 
         document.querySelector(".weather").style.display="block";
         document.querySelector(".error").style.display="none";
