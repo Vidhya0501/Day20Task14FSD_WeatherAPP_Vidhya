@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background:url('https://images.unsplash.com/photo-1508020963102-c6c723be5764?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+}
+
+.container{
+    background: url('https://img.freepik.com/premium-photo/vertical-image-white-clouds-blue-sky-morning_35782-208.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703635200&semt=sph');
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.search{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    border:0;
+    outline:0;
+    margin-right:15px;
+    height:40px;
+    width:300px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.search button{
+    background-color: #fff;
+    border-radius:15%;
+    color:cornflowerblue;
+    margin-right:10px;    
+    border: none;
+    width:70px;
+    height:35px;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+}
+
+
+
+.weather{
+    margin-top: 20px;
+    display: none;
+}
+
+.other-details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.other-details i{
+    height:30px;
+    width:80px;
+}
+.error{
+    color: rgb(158, 37, 37);
+    margin-right: 200px;
+    padding-top: 2px;
+    display: none;
+}
+
+.w-icon{
+    height: 120px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather APP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="search">
+            <input type="text" placeholder="City name"/>
+            <button>Search</button>
+            
+        </div>
+        <div class="error">
+            <span>Invalid city name</span>
+        </div>
+     <div class="weather">
+        <div class="weather-content">
+            <img src="images/clear.png" alt="weather image" class="w-icon"/>
+            <h1 class="celsius">22°C</h1>
+            <h2 class="city">Chennai</h2>
+        </div>
+        <div class="other-details">
+            <div class="humidity-data">
+                <i class="fa-solid fa-droplet"></i>
+                <h2 class="humidity">75%</h2>
+                <h3>Humidity</h3>
+            </div>
+            <div class="wind-data">
+                <i class="fa-solid fa-wind"></i>
+                <h2 class="wind">21km/h</h2>
+                <h3>Wind</h3>
+            </div>
+        </div>
+     </div>
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
